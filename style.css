@@ -1,10 +1,12 @@
+/* Updated CSS for Duplessis' Diner Website */
 
+/* General Styles */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #fefefe;
+    background-color: #f9f9f9;
     color: #333;
 }
 
@@ -15,6 +17,7 @@ header {
     padding: 20px;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-bottom: 4px solid #1b5e20;
 }
 
 header h1 {
@@ -35,6 +38,9 @@ nav {
     color: white;
     padding: 15px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 nav ul {
@@ -63,7 +69,7 @@ section {
     background: white;
     padding: 20px;
     margin: 20px auto;
-    max-width: 800px;
+    max-width: 900px;
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
@@ -78,12 +84,13 @@ section p {
     font-size: 1.2em;
     font-weight: 300;
     text-align: justify;
+    margin-bottom: 15px;
 }
 
 /* About Us Image Styling */
 .about-image img {
     display: block;
-    max-width: 70%;
+    max-width: 100%;
     height: auto;
     margin: 20px auto;
     border-radius: 10px;
@@ -98,6 +105,7 @@ footer {
     padding: 20px 10px;
     margin-top: 20px;
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #1b5e20;
 }
 
 footer a {
@@ -123,3 +131,30 @@ footer p {
     font-size: 0.9em;
 }
 
+/* Improved Product and Team Layout */
+.product, .team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.product img, .team-member img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.product h3, .team-member h3 {
+    color: #2e7d32;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.product p, .team-member p {
+    font-size: 1em;
+    text-align: center;
+    margin: 5px 0;
+}
