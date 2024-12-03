@@ -90,11 +90,16 @@ section p {
 /* About Us Image Styling */
 .about-image img {
     display: block;
-    max-width: 100%;
+    max-width: 50%; /* Reduce size further */
     height: auto;
     margin: 20px auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.about-image img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
 }
 
 /* Footer Styles */
@@ -158,3 +163,4 @@ footer p {
     text-align: center;
     margin: 5px 0;
 }
+
