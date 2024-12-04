@@ -90,12 +90,16 @@ section p {
 /* Global Image Styling */
 img {
     display: block;
-    max-width: 20%; /* Significantly reduce size */
-    height: auto;
+    width: 1em; /* Make images much smaller */
+    height: 1em; /* Force square aspect ratio */
     margin: 20px auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
 }
 
 img:hover {
