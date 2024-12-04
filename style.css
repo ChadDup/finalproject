@@ -90,7 +90,7 @@ section p {
 /* Global Image Styling */
 img {
     display: block;
-    max-width: 20%; /* Reduced size for all images */
+    max-width: 20%; /* Significantly reduce size */
     height: auto;
     margin: 20px auto;
     border-radius: 10px;
@@ -163,4 +163,3 @@ footer p {
     text-align: center;
     margin: 5px 0;
 }
-
