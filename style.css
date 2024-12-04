@@ -6,18 +6,18 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text for contrast */
 }
 
 /* Header Styles */
 header {
-    background: linear-gradient(90deg, #4caf50, #2e7d32);
+    background: linear-gradient(90deg, #6a1b9a, #311b92); /* Dark purple gradient */
     color: white;
     padding: 20px;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-bottom: 4px solid #1b5e20;
+    border-bottom: 4px solid #4527a0;
 }
 
 header h1 {
@@ -34,7 +34,7 @@ header h3 {
 
 /* Navigation Styles */
 nav {
-    background: #2e7d32;
+    background: #311b92; /* Dark purple */
     color: white;
     padding: 15px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -53,7 +53,7 @@ nav ul {
 }
 
 nav ul li a {
-    color: white;
+    color: #e0e0e0;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.1em;
@@ -61,12 +61,12 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #a5d6a7;
+    color: #ba68c8; /* Lighter purple */
 }
 
 /* Section Styles */
 section {
-    background: white;
+    background: #1e1e1e; /* Slightly lighter dark background */
     padding: 20px;
     margin: 20px auto;
     max-width: 900px;
@@ -75,7 +75,7 @@ section {
 }
 
 section h2 {
-    color: #2e7d32;
+    color: #ba68c8;
     margin-bottom: 15px;
     text-align: center;
 }
@@ -90,7 +90,7 @@ section p {
 /* About Us Image Styling */
 .about-image img {
     display: block;
-    max-width: 30%; /* Significantly reduce size */
+    max-width: 20%; /* Much smaller size */
     height: auto;
     margin: 20px auto;
     border-radius: 10px;
@@ -102,19 +102,15 @@ section p {
     transform: scale(1.05); /* Slight zoom effect on hover */
 }
 
-.about-image img:hover {
-    transform: scale(1.05); /* Slight zoom effect on hover */
-}
-
 /* Footer Styles */
 footer {
-    background: #2e7d32;
+    background: #311b92; /* Dark purple */
     color: white;
     text-align: center;
     padding: 20px 10px;
     margin-top: 20px;
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
-    border-top: 4px solid #1b5e20;
+    border-top: 4px solid #4527a0;
 }
 
 footer a {
@@ -157,7 +153,7 @@ footer p {
 }
 
 .product h3, .team-member h3 {
-    color: #2e7d32;
+    color: #ba68c8;
     margin-bottom: 5px;
     text-align: center;
 }
@@ -167,5 +163,4 @@ footer p {
     text-align: center;
     margin: 5px 0;
 }
-
 
