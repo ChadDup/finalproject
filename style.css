@@ -90,12 +90,16 @@ section p {
 /* Global Image Styling */
 img {
     display: block;
-    width: 1em; /* Make images much smaller */
-    height: 1em; /* Force square aspect ratio */
+    max-width: 25%; /* Adjusted size for moderate display */
+    height: auto; /* Maintain aspect ratio */
     margin: 20px auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
 }
 
 img:hover {
@@ -167,3 +171,4 @@ footer p {
     text-align: center;
     margin: 5px 0;
 }
+
