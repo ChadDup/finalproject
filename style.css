@@ -6,7 +6,9 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #121212; /* Dark background */
+    background: linear-gradient(120deg, #6a1b9a, #311b92, #121212); /* Fancy gradient background */
+    background-size: 400% 400%;
+    animation: gradientBackground 15s ease infinite;
     color: #e0e0e0; /* Light text for contrast */
 }
 
