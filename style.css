@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background: url('duplessis-diner-background.png') no-repeat center center fixed; /* Add custom background image */
+    background: url('duplessis-diner-background.webp') no-repeat center center fixed; /* Add custom background image */
     background-size: cover; /* Ensure it covers the entire screen */
     color: #e0e0e0; /* Light text for contrast */
 }
