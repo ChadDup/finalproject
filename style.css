@@ -1,19 +1,16 @@
-/* Global CSS for Duplessis' Diner Website */
 
-/* General Styles */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background: url('duplessis-diner-background.webp') no-repeat center center fixed; /* Add custom background image */
-    background-size: cover; /* Ensure it covers the entire screen */
-    color: #e0e0e0; /* Light text for contrast */
+    background: url('duplessis-diner-background.webp') no-repeat center center fixed; 
+    background-size: cover; 
+    color: #e0e0e0; 
 }
 
-/* Header Styles */
 header {
-    background: linear-gradient(90deg, #6a1b9a, #311b92); /* Dark purple gradient */
+    background: linear-gradient(90deg, #6a1b9a, #311b92);
     color: white;
     padding: 20px;
     text-align: center;
@@ -33,9 +30,9 @@ header h3 {
     font-style: italic;
 }
 
-/* Navigation Styles */
+
 nav {
-    background: #311b92; /* Dark purple */
+    background: #311b92; 
     color: white;
     padding: 15px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -62,12 +59,12 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ba68c8; /* Lighter purple */
+    color: #ba68c8; 
 }
 
-/* Section Styles */
+
 section {
-    background: #1e1e1e; /* Slightly lighter dark background */
+    background: #1e1e1e; 
     padding: 20px;
     margin: 20px auto;
     max-width: 900px;
@@ -88,11 +85,11 @@ section p {
     margin-bottom: 15px;
 }
 
-/* Global Image Styling */
+
 img {
     display: block;
-    width: 10em; /* Slightly bigger size */
-    height: auto; /* Maintain aspect ratio */
+    width: 10em; 
+    height: auto; 
     margin: 20px auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -100,12 +97,12 @@ img {
 }
 
 img:hover {
-    transform: scale(1.05); /* Slight zoom effect on hover */
+    transform: scale(1.05); 
 }
 
-/* Footer Styles */
+
 footer {
-    background: #311b92; /* Dark purple */
+    background: #311b92; 
     color: white;
     text-align: center;
     padding: 20px 10px;
@@ -137,7 +134,7 @@ footer p {
     font-size: 0.9em;
 }
 
-/* Improved Product and Team Layout */
+
 .product, .team-member {
     display: flex;
     flex-direction: column;
