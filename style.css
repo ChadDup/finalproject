@@ -165,7 +165,7 @@ footer p {
     margin: 5px 0;
 }
 /* Contact Us Page Styles */
-.contact-us {
+.contact_us {
     background: #1e1e1e; /* Match the dark theme of other sections */
     padding: 40px 20px;
     margin: 20px auto;
@@ -175,7 +175,7 @@ footer p {
     text-align: center;
 }
 
-.contact-us h2 {
+.contact_us h2 {
     color: #ba68c8;
     margin-bottom: 20px;
     font-size: 2.2em;
@@ -183,7 +183,7 @@ footer p {
     letter-spacing: 1px;
 }
 
-.contact-us p {
+.contact_us p {
     color: #e0e0e0;
     font-size: 1.2em;
     margin-bottom: 30px;
@@ -191,7 +191,7 @@ footer p {
     text-align: justify;
 }
 
-.contact-us form {
+.contact_us form {
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -199,9 +199,9 @@ footer p {
     margin: 0 auto;
 }
 
-.contact-us input,
-.contact-us textarea,
-.contact-us button {
+.contact_us input,
+.contact_us textarea,
+.contact_us button {
     width: 100%;
     padding: 10px 15px;
     font-size: 1em;
@@ -212,18 +212,18 @@ footer p {
     transition: border-color 0.3s, box-shadow 0.3s;
 }
 
-.contact-us input:focus,
-.contact-us textarea:focus {
+.contact_us input:focus,
+.contact_us textarea:focus {
     border-color: #ba68c8;
     box-shadow: 0 0 8px rgba(186, 104, 200, 0.6);
 }
 
-.contact-us textarea {
+.contact_us textarea {
     min-height: 100px;
     resize: vertical;
 }
 
-.contact-us button {
+.contact_us button {
     background: #6a1b9a; /* Match the dark purple tone */
     color: white;
     font-weight: bold;
@@ -232,19 +232,19 @@ footer p {
     border: none;
 }
 
-.contact-us button:hover {
+.contact_us button:hover {
     background: #ba68c8;
     transform: translateY(-2px);
 }
 
-.contact-us .social-links {
+.contact_us .social-links {
     margin-top: 20px;
     display: flex;
     justify-content: center;
     gap: 15px;
 }
 
-.contact-us .social-links a img {
+.contact_us .social-links a img {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -252,7 +252,7 @@ footer p {
     transition: transform 0.3s, opacity 0.3s;
 }
 
-.contact-us .social-links a img:hover {
+.contact_us .social-links a img:hover {
     opacity: 0.8;
     transform: scale(1.1);
 }
